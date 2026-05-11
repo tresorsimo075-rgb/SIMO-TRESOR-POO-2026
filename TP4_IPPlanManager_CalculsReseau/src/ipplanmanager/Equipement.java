@@ -9,8 +9,8 @@ package ipplanmanager;
  * @author Trésor
  */
 import java.util.ArrayList;
-public class EquipementEquipement {
- private String nom;
+public class Equipement {
+   private String nom;
     private String type;
     private ArrayList<InterfaceReseau> interfaces;
     
@@ -66,5 +66,5 @@ public class EquipementEquipement {
         System.out.println("Nombre d'interfaces: " + interfaces.size());
         System.out.println("--- Interfaces ---");
         afficherInterfaces();
-    }   
+    }  
 }
